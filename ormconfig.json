@@ -1,12 +1,11 @@
 {
-    "type": "mysql",
+    "name":"default",
+    "type":"mysql",
     "host": "localhost",
-    "port": 3306,
+    "port": 3307,
     "username": "root",
     "password": "",
     "database": "starwars",
-    "synchronize": true,
-    "logging": false,
     "entities": [
         "./src/models/*.ts"
     ],
@@ -16,5 +15,4 @@
     "cli": {
         "migrationsDir": "./src/database/migrations"
     }
-
 }

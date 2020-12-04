@@ -8,8 +8,8 @@ import {
 
 @Entity('characters')
 class Character {
-    @PrimaryGeneratedColumn('uuid')
-    id: string;
+    @PrimaryGeneratedColumn('increment')
+    id: number;
 
     @Column('varchar')
     name: string;
