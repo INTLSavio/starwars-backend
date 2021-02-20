@@ -1,6 +1,6 @@
 # Star Wars Backend
 ## About the project
-
+Backend of technical test
 This API is a CRUD of Star Wars's characters
 
 To see the **frontend**, click here: [Star Wars Frontend](https://github.com/INTLSavio/starwars-frontend)
